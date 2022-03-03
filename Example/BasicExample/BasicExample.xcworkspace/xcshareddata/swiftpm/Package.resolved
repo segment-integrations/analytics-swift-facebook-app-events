@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
+        "state": {
+          "branch": null,
+          "revision": "e14f349945ba3f9516e3292107f42be19fe9fbe5",
+          "version": "12.3.2"
+        }
+      },
+      {
+        "package": "Sovran",
+        "repositoryURL": "https://github.com/segmentio/Sovran-Swift.git",
+        "state": {
+          "branch": null,
+          "revision": "944c17d7c46bd95fc37f09136cabd172be5b413b",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

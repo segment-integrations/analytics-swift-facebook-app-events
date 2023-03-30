@@ -35,6 +35,10 @@ import FBSDKCoreKit
 // SOFTWARE.
 //
 
+@objc(SEGFacebookAppEventsDestination)
+public class ObjCSegmentFacebookAppEvents: NSObject, ObjCDestination, ObjCDestinationShim {
+    public func instance() -> DestinationPlugin { return FacebookAppEventsDestination() }
+}
 
 public class FacebookAppEventsDestination: DestinationPlugin, iOSLifecycle {
     typealias FBSettings = FBSDKCoreKit.Settings
@@ -86,7 +90,7 @@ public class FacebookAppEventsDestination: DestinationPlugin, iOSLifecycle {
             params[AppEvents.ParameterName.currency] = currency
             
             AppEvents.shared.logEvent(truncatedEventName, valueToSum: revenue, parameters: params)
-            AppEvents.shared.logPurchase(amount: revenue, currency: currency, parameters: params as? [String: Any])
+            AppEvents.shared.logPurchase(amount: revenue, currency: currency, parameters: params)
         } else {
             AppEvents.shared.logEvent(truncatedEventName, parameters: params)
         }

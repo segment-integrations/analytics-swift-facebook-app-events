@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/segmentio/analytics-swift.git",
         "state": {
           "branch": null,
-          "revision": "76316a5009502de6e7c2788c295e9afc68793cd3",
-          "version": "1.1.2"
+          "revision": "26f23a2ae9b8dd47aeee1bdaa1e203f3bed6044e",
+          "version": "1.4.0"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
         "state": {
           "branch": null,
-          "revision": "e14f349945ba3f9516e3292107f42be19fe9fbe5",
-          "version": "12.3.2"
+          "revision": "5c7367dadcbe504702c041621dc09752bf2cd747",
+          "version": "16.0.1"
         }
       },
       {

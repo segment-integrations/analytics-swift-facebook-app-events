@@ -36,8 +36,8 @@ import FBSDKCoreKit
 //
 
 @objc(SEGFacebookAppEventsDestination)
-public class ObjCSegmentFacebookAppEvents: NSObject, ObjCDestination, ObjCDestinationShim {
-    public func instance() -> DestinationPlugin { return FacebookAppEventsDestination() }
+public class ObjCSegmentFacebookAppEvents: NSObject, ObjCPlugin, ObjCPluginShim {
+    public func instance() -> EventPlugin { return FacebookAppEventsDestination() }
 }
 
 public class FacebookAppEventsDestination: DestinationPlugin, iOSLifecycle {

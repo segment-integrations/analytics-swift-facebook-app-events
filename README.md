@@ -1,10 +1,10 @@
 # Analytics-Swift Facebook App Events
 
-Add Facebook App Devents device mode support to your applications via this plugin for [Analytics-Swift](https://github.com/segmentio/analytics-swift)
+Add `Facebook App Devents` device mode support to your applications via this plugin for [Analytics-Swift](https://github.com/segmentio/analytics-swift)
 
 ## Adding the dependency
 
-***Note:** the AppsFlyer library itself will be installed as an additional dependency.*
+***Note:** the `Facebook App Events` library itself will be installed as an additional dependency.*
 
 ### via Xcode
 In the Xcode `File` menu, click `Add Packages`.  You'll see a dialog where you can search for Swift packages.  In the search field, enter the URL to this repo.

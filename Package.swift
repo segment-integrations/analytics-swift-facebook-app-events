@@ -27,7 +27,7 @@ let package = Package(
 		.package(
 			name: "Facebook",
 			url: "https://github.com/facebook/facebook-ios-sdk",
-			from: "12.0.0"
+			from: "16.0.0"
 		)
     ],
     targets: [

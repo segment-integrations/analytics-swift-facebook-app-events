@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
         "state": {
           "branch": null,
-          "revision": "e14f349945ba3f9516e3292107f42be19fe9fbe5",
-          "version": "16.3.1"
+          "revision": "09eb5b0cb74127a360e0bc74a2d75ec1fd351e48",
+          "version": "17.0.0"
         }
       },
       {

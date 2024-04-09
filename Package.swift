@@ -22,12 +22,12 @@ let package = Package(
         .package(
             name: "Segment",
             url: "https://github.com/segmentio/analytics-swift.git",
-            from: "1.1.2"
+            from: "1.5.9"
         ),
 		.package(
 			name: "Facebook",
 			url: "https://github.com/facebook/facebook-ios-sdk",
-			from: "16.0.0"
+			from: "17.0.0"
 		)
     ],
     targets: [

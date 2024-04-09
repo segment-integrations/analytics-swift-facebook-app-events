@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/segmentio/analytics-swift",
         "state": {
           "branch": null,
-          "revision": "7eeb2abf8452153af056baae5369679589f10936",
-          "version": "1.5.9"
+          "revision": "51f56b972de8daee251f18fd2c91fa3a33c8d77e",
+          "version": "1.5.2"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
         "state": {
           "branch": null,
-          "revision": "09eb5b0cb74127a360e0bc74a2d75ec1fd351e48",
-          "version": "17.0.0"
+          "revision": "3fe31c168903759de1c5752d12856c5c437c6862",
+          "version": "16.3.1"
         }
       },
       {
@@ -30,11 +30,11 @@
       },
       {
         "package": "Sovran",
-        "repositoryURL": "https://github.com/segmentio/sovran-swift.git",
+        "repositoryURL": "https://github.com/segmentio/Sovran-Swift.git",
         "state": {
           "branch": null,
-          "revision": "a342b905f6baa64499cabdf61ccc185ec476b7b2",
-          "version": "1.1.1"
+          "revision": "64f3b5150c282a34af4578188dce2fd597e600e3",
+          "version": "1.1.0"
         }
       }
     ]
